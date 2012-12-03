@@ -1,8 +1,12 @@
 ## Usage
 
+* Setup
 ``` python
 >>> from upasteit import UPaste
 >>> geoffs_pastes = UPaste("geoff")
+```
+* Paste
+``` python
 >>> geoffs_pastes.paste("hello there")
 {
   "content": "hello there", 
@@ -10,6 +14,9 @@
   "user_id": 1, 
   "id": 1
 }
+```
+* Paste more
+``` python
 >>> geoffs_pastes.paste(["first", "second", "potato"])
 [
   {
@@ -31,6 +38,9 @@
     "id": 4
   }
 ]
+```
+* Get Pastes
+``` python
 >>> geoffs_pastes.get()
 [
   {
