@@ -1,4 +1,4 @@
-## Usage
+## Usage (paste and get)
 
 ### Setup
 ``` python
