@@ -2,11 +2,11 @@
 
 ``` python
 >>> from upasteit import UPaste
->>> paste = UPaste("geoff")
->>> paste.get()
+>>> geoffs_pastes = UPaste("geoff")
+>>> geoffs_pastes.get()
 ...
->>> paste.paste("hello there")
+>>> geoffs_pastes.paste("hello there")
 ...
->>> paste.paste(["first", "second", "potato"])
+>>> geoffs_pastes.paste(["first", "second", "potato"])
 ...
 ```
