@@ -1,11 +1,11 @@
 ## Usage
 
-* Setup
+### Setup
 ``` python
 >>> from upasteit import UPaste
 >>> geoffs_pastes = UPaste("geoff")
 ```
-* Paste
+### Paste
 ``` python
 >>> geoffs_pastes.paste("hello there")
 {
@@ -15,7 +15,7 @@
   "id": 1
 }
 ```
-* Paste more
+### Paste more
 ``` python
 >>> geoffs_pastes.paste(["first", "second", "potato"])
 [
@@ -39,7 +39,7 @@
   }
 ]
 ```
-* Get Pastes
+### Get Pastes
 ``` python
 >>> geoffs_pastes.get()
 [
